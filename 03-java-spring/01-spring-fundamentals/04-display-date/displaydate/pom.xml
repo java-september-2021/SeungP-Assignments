@@ -8,11 +8,11 @@
 		<version>2.5.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.foof.controllerspractice</groupId>
-	<artifactId>controllerspractice</artifactId>
+	<groupId>com.foof.displaydate</groupId>
+	<artifactId>displaydate</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>controllerspractice</name>
-	<description>Demo project for Spring Boot</description>
+	<name>displaydate</name>
+	<description>Display Date Assignment</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -37,15 +37,14 @@
                 <groupId>org.apache.tomcat.embed</groupId>
                 <artifactId>tomcat-embed-jasper</artifactId>
         </dependency>
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-		</dependency>
-		
-		<dependency>
-        <groupId>org.webjars</groupId>
-        <artifactId>webjars-locator</artifactId>
-        <version>0.30</version>
+        <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>jstl</artifactId>
+        </dependency>
+        <dependency>
+        	<groupId>org.webjars</groupId>
+        	<artifactId>webjars-locator</artifactId>
+        	<version>0.30</version>
 	    </dependency>
 	    
 	    <!-- BOOTSTRAP DEPENDENCIES -->
