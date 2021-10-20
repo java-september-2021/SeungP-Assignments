@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container{
+	margin-top: 50px;
+	width:1400px;
+	
+}
+.dojoRow:last-child{
+	border-bottom: 2px solid black;
+}
+.dojoRow:nth-child(even){
+	background-color: Lavender;
+}
+#headers{
+	background-color: CornflowerBlue;
+}
+.col{
+	height: 50px;
+	border-left: 2px solid black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.head{
+	border-top: 2px solid black;
+}
+.col:last-child{
+	border-right: 2px solid black;
+}
+.row{
+	height: 50px;
+}
