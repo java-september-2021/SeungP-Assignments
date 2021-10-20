@@ -54,7 +54,7 @@ public class NinjaService {
 		ninjaRepository.deleteById(id);
 		
 	}
-	public Ninja updateBook(@Valid Ninja ninja) {
+	public Ninja updateNinja(@Valid Ninja ninja) {
 		Ninja n = findNinja(ninja.getId());
 		n.setFirstName(ninja.getFirstName());
 		n.setLastName(ninja.getLastName());
